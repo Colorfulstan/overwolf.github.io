@@ -83,9 +83,6 @@ Basic usage flow:
    Set the `enable` field of the [overwolf.media.replays.ReplayHighlightsSetting](../api/overwolf-media-replays#replayhighlightssetting-object) Object to `true`.  
    Here you also set the capture buffer that is used for all the other functions.
 
-3. **Call [overwolf.media.replays.stopCapture()](../api/overwolf-media-replays#stopcapturereplaytype-replayid-callback)**.  
-   Finishes capturing a replay and returns a URL to the created video file.
-
 4. **Call [overwolf.media.replays.turnOff()](../api/overwolf-media-replays#turnoffcallback)**, as soon as you’re no longer interested in capturing, in order to free up resources.
 
 ## Using overwolf.streaming
